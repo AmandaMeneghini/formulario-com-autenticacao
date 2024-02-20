@@ -1,0 +1,102 @@
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: var(--white)
+}
+
+main{
+    background-image: url(../images/bg-repeat.jpg);
+    background-size: contain;
+    height: 100vh;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mensagem-section{
+    max-width: 50%;
+    margin-right: 60px;
+}
+
+.mensagem-section h1{
+    font-size: 2rem;
+    margin-bottom: 11px;
+}
+
+.form{
+    background-color: var(--white);
+    width: 340px;
+    padding: 20px;
+}
+
+.form .input{
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.form .input#input-with-textarea{
+    margin-bottom: 0;
+}
+
+.form .input input,
+#input-message{
+    border: 1px solid var(--black);
+    border-radius: 5px;
+    width: 100%;
+    height: 35px;
+    padding: 8px 10px;
+}
+
+.form .input input::placeholder,
+#input-message::placeholder{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: var(--soft-gray);
+}
+
+.input #input-message{
+    height: 100px;
+    resize: none;
+}
+
+.input .required-fields-message{
+    position: absolute;
+    display: none;
+}
+
+
+.form .informative-message{
+    color: var(--black);
+    margin-bottom: 11px;
+}
+
+.form .button{
+    width: 100%;
+    background-color: var(--soft-green);
+    border-radius: 5px;
+    color: var(--white);
+    padding: 12px;
+    cursor: pointer;
+}
+
+.input.correct input,
+.input.correct #input-message{
+    border-color: var(--green);
+}
+
+.input.wrong input,
+.input.wrong #input-message{
+    border-color: var(--red);
+}
+
+.input.wrong .required-fields-message{
+    display: block;
+    color: var(--red);
+    font-size: 0.8rem;
+}
+
+.form .input.wrong#input-with-textarea{
+    margin-bottom: 16px;
+}
