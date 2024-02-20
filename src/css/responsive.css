@@ -1,0 +1,36 @@
+@media (max-width: 730px){
+    .main-content{
+        display: block;
+        padding: 20px;
+        max-width: 340px;
+    }
+
+    .message-section{
+        text-align: center;
+        max-width: 100%;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .form{
+        width: 100%;
+    }
+}
+
+@media (max-width: 380px){
+    main{
+        font-size: 1.2rem;
+    }
+
+    .main-content{
+        max-width: 300px;
+    }
+
+    .message-section .title{
+        font-size: 1.8rem;
+    }
+
+    .form{
+        padding: 15px;  
+    }
+}

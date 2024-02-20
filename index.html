@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/variables.css">
     <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,37 +16,39 @@
 </head>
 <body>
     <main>
-        <section class="message-section">
-            <h1 class="title">
-                FICOU COM DÚVIDA?
-                <br> NOS MANDE UMA MENSAGEM!
-            </h1>
-            <p class="paragraph">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
-        </section>
-
-        <form class="form">
-            <div class="input name">
-                <input type="text" name="name" id="name" placeholder="Nome completo *" required>
-                <p class="required-fields-message">campo obrigatório</p>
-            </div>
-            
-            <div class="input email">
-                <input type="email" name="email" id="email" placeholder="Email *" required>
-                <p class="required-fields-message">campo obrigatório</p>
-            </div>
-            <div class="input phone">
-                <input type="text" name="phone" id="phone" placeholder="Telefone *" required>
-                <p class="required-fields-message">campo obrigatório</p>
-            </div>
-            
-            <div class="input message" id="input-with-textarea">
-                <textarea type="text" name="message" id="message" placeholder="Mensagem *" required></textarea>
-                <p class="required-fields-message">campo obrigatório</p>
-            </div>                               
-
-            <p class="informative-message">*campos obrigatórios</p>
-            <button class="button" type="submit">Enviar</button>
-        </form>
+        <div class="main-content">
+            <section class="message-section">
+                <h1 class="title">
+                    FICOU COM DÚVIDA?
+                    <br> NOS MANDE UMA MENSAGEM!
+                </h1>
+                <p class="paragraph">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+            </section>
+    
+            <form class="form">
+                <div class="input name">
+                    <input type="text" name="name" id="name" placeholder="Nome completo *" required>
+                    <p class="required-fields-message">campo obrigatório</p>
+                </div>
+                
+                <div class="input email">
+                    <input type="email" name="email" id="email" placeholder="Email *" required>
+                    <p class="required-fields-message">campo obrigatório</p>
+                </div>
+                <div class="input phone">
+                    <input type="text" name="phone" id="phone" placeholder="Telefone *" required>
+                    <p class="required-fields-message">campo obrigatório</p>
+                </div>
+                
+                <div class="input message" id="input-with-textarea">
+                    <textarea type="text" name="message" id="message" placeholder="Mensagem *" required></textarea>
+                    <p class="required-fields-message">campo obrigatório</p>
+                </div>                               
+    
+                <p class="informative-message">*campos obrigatórios</p>
+                <button class="button" type="submit">Enviar</button>
+            </form>
+        </div>
     </main> 
  
     <script src="./src/js/form.js"></script>

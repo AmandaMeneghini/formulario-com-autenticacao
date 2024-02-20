@@ -15,6 +15,12 @@ main{
     justify-content: center;
 }
 
+.main-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .message-section{
     max-width: 300px;
     margin-right: 60px;

@@ -1,8 +1,9 @@
-const buttonSubmit = document.querySelector(".button")
 const divInputName = document.querySelector(".name")
 const divInputEmail = document.querySelector(".email")
 const divInputPhone = document.querySelector(".phone")
 const divInputMessage = document.querySelector(".message")
+
+const buttonSubmit = document.querySelector(".button")
 
 buttonSubmit.addEventListener("click", function(){
     
