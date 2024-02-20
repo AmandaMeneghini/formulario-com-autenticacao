@@ -20,7 +20,7 @@ main{
     margin-right: 60px;
 }
 
-.message-section h1{
+.message-section .title{
     font-size: 2rem;
     margin-bottom: 11px;
 }
