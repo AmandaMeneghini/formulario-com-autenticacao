@@ -15,12 +15,12 @@ main{
     justify-content: center;
 }
 
-.mensagem-section{
-    max-width: 50%;
+.message-section{
+    max-width: 300px;
     margin-right: 60px;
 }
 
-.mensagem-section h1{
+.message-section h1{
     font-size: 2rem;
     margin-bottom: 11px;
 }
@@ -41,7 +41,7 @@ main{
 }
 
 .form .input input,
-#input-message{
+#message{
     border: 1px solid var(--black);
     border-radius: 5px;
     width: 100%;
@@ -50,13 +50,13 @@ main{
 }
 
 .form .input input::placeholder,
-#input-message::placeholder{
+#message::placeholder{
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     color: var(--soft-gray);
 }
 
-.input #input-message{
+.input #message{
     height: 100px;
     resize: none;
 }
@@ -82,12 +82,12 @@ main{
 }
 
 .input.correct input,
-.input.correct #input-message{
+.input.correct #message{
     border-color: var(--green);
 }
 
 .input.wrong input,
-.input.wrong #input-message{
+.input.wrong #message{
     border-color: var(--red);
 }
 
