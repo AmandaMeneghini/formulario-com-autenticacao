@@ -4,9 +4,9 @@ Quest de JS Intermediário do curso [DevQuest](https://devemdobro.com), onde tin
 
 
 <div style="text-align: center;">
-    <img src="./src/images/readme/design/normalInputs.png" style="width: 200px"> 1
-    <img src="./src/images/readme/design/wrongAllInputs.png" style="width: 200px"> 2
-    <img src="./src/images/readme/design/verifyAllInputs.png" style="width: 200px"> 3
+    ¹ <img src="./src/images/readme/design/normalInputs.png" style="width: 30%"> 
+    ² <img src="./src/images/readme/design/wrongAllInputs.png" style="width: 30%"> 
+    ³ <img src="./src/images/readme/design/verifyAllInputs.png" style="width: 30%"> 
 </div>
 
 _1. Campos vazios | 2. Campos não preenchidos  e enviados | 3. Campos devidamente preenchidos e enviados_
