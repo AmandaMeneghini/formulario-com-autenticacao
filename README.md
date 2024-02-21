@@ -2,10 +2,10 @@
 
 Quest de JS Intermediário do curso [DevQuest](https://devemdobro.com), onde tinha como foco o devenvolvimento do [Figma](https://www.figma.com/file/zBKnYG9UNdUiIr8ClQTWSG/DESAFIO---HTML%2FCSS%2FJS-INTERMEDIÁRIO?type=design&node-id=3-2&mode=design&t=BhLK0ne5IDKQx4HZ-0)
 
-<div style="display: block; text-align: center;">
-    <img src="./src/images/readme/design/normalInputs.png" style="max-width: 300px">
-    <img src="./src/images/readme/design/wrongAllInputs.png" style="max-width: 300px">
-    <img src="./src/images/readme/design/verifyAllInputs.png" style="max-width: 300px">
+<div style="text-align: center;">
+    <img src="./src/images/readme/design/normalInputs.png" style="width: 300px">
+    <img src="./src/images/readme/design/wrongAllInputs.png" style="width: 300px">
+    <img src="./src/images/readme/design/verifyAllInputs.png" style="width: 300px">
 </div>
 
 ## Minha Resolução 💡
@@ -17,9 +17,9 @@ Quest de JS Intermediário do curso [DevQuest](https://devemdobro.com), onde tin
 ### Tecnologias Utilizadas 🛠
 
 <div style="display: flex;">
-    <img src="./src/images/readme/icons/logo-html-5-1536.png" style="max-width: 50px">
-    <img src="./src/images/readme/icons/logo-css-3-2048.png" style="max-width: 50px">
-    <img src="./src/images/readme/icons/javascript_icon_130900.png" style="max-width: 50px">
+    <img src="./src/images/readme/icons/logo-html-5-1536.png" style="width: 50px">
+    <img src="./src/images/readme/icons/logo-css-3-2048.png" style="width: 50px">
+    <img src="./src/images/readme/icons/javascript_icon_130900.png" style="width: 50px">
 </div>
 
 ### Ferramenta Utilizada na Responsividade 💻📱 
