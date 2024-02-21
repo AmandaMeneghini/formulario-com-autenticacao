@@ -2,12 +2,14 @@
 
 Quest de JS Intermediário do curso [DevQuest](https://devemdobro.com), onde tinha como foco o devenvolvimento do [Figma](https://www.figma.com/file/zBKnYG9UNdUiIr8ClQTWSG/DESAFIO---HTML%2FCSS%2FJS-INTERMEDIÁRIO?type=design&node-id=3-2&mode=design&t=BhLK0ne5IDKQx4HZ-0)
 
+
 <div style="text-align: center;">
-    <img src="./src/images/readme/design/normalInputs.png" style="width: 300px">
-    <img src="./src/images/readme/design/wrongAllInputs.png" style="width: 300px">
-    <img src="./src/images/readme/design/verifyAllInputs.png" style="width: 300px">
+    <img src="./src/images/readme/design/normalInputs.png" style="width: 200px"> 1
+    <img src="./src/images/readme/design/wrongAllInputs.png" style="width: 200px"> 2
+    <img src="./src/images/readme/design/verifyAllInputs.png" style="width: 200px"> 3
 </div>
 
+_1. Campos vazios | 2. Campos não preenchidos  e enviados | 3. Campos devidamente preenchidos e enviados_
 ## Minha Resolução 💡
 
 <img src="./src/images/readme/demo/formWithValidation.gif">
