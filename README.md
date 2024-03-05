@@ -1,8 +1,7 @@
 # Formulário com Validação ✔ ❌
 
 Quest de JS Intermediário do curso [DevQuest](https://devemdobro.com), onde tinha como foco o devenvolvimento do [Figma](https://www.figma.com/file/zBKnYG9UNdUiIr8ClQTWSG/DESAFIO---HTML%2FCSS%2FJS-INTERMEDIÁRIO?type=design&node-id=3-2&mode=design&t=BhLK0ne5IDKQx4HZ-0)
-
-
+com os seguintes requisitos **obrigatórios**:
 <div style="text-align: center;">
     ¹ <img src="./src/images/readme/design/normalInputs.png" style="width: 30%"> 
     ² <img src="./src/images/readme/design/wrongAllInputs.png" style="width: 30%"> 
