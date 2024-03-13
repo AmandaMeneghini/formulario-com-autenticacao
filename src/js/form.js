@@ -12,7 +12,6 @@ buttonSubmit.addEventListener("click", (e) => {
             input.classList.add("correct")
         }else{
             input.classList.add("wrong")
-            console.log("tem nada aqui");
         }
     })
 })
